@@ -1,0 +1,160 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: gray ;
+}
+.img1{
+    width: 15%;
+}
+
+.logo {
+    margin: 18px 0px 0px 32px;
+}
+
+.main {
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 70px;
+
+    background: #F3F5FC;
+
+    border-style: none;
+    outline: none;
+    resize: none;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 250px;
+    height: 50px;
+
+    background-color: lightgray;
+    color: black;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.encriptar:hover {
+    background-color: #356EA9;
+    color: #FFFFFF;
+}
+
+.encriptar:active {
+    background-color: #757FB2;
+    color: #FFFFFF;
+}
+
+.desencriptar {
+    width: 250px;
+    height: 50px;
+
+    margin-left: 30px;
+    background-color: lightgray;
+    color: black;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.desencriptar:hover {
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.desencriptar:active {
+    background-color: #757FB2;
+    color: #FFFFFF;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 2px;
+    margin-left: 90px;
+
+    background: white;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    background-image: url('imgs/pesquisando.png');
+    background-repeat: no-repeat;
+
+    background-position-x: center;
+    background-position-y: center;
+
+    text-align: center;
+    font-size: 19px;
+
+    outline: none;
+    border-style: none;
+    resize: none;
+}
+
+.div-botao-copia {
+    display: flex;
+    text-align: center;
+
+}
+
+.botao-copia {
+    width: 250px;
+    height: 50px;
+
+    position: absolute;
+    top: 700px;
+    left: 870px;
+
+    margin: 20px 0px 0px 90px;
+
+    background-color: lightgray ;
+    color: black;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 20px;
+}
+
+.botao-copia:hover {
+    background-color: lightgray;
+    color: #FFFFFF;
+}
+
+.botao-copia:active {
+    background-color: lightgray;
+    color: #FFFFFF;
+}
+
+
+.lucas {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.lucas strong {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.github {
+    text-align: center;
+    margin: 5px 0px;
+}
